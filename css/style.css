@@ -1,22 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
 body{
+	font-family: 'Roboto', sans-serif;
+	padding: 40px 0px 0px 100px;
+	background: #599F96;
+	color: white;
+	text-shadow: 1px 1px 2px #CF5454 ;
 
 }
 
 section{
 	background: #DBEDE7;
 	width: 80%;
-	margin: 10px;
+	margin: 20px;
 	padding: 15px;
-	display: inline-block;
+	display: block;
 	box-shadow: 10px 5px 3px #60C3F6;
 }
 section div{
 	background: #44A14F;
 	margin: 10px 10px;
-	font-family: "arial";
-	width: 120px;
-	height: 40px;
-	padding: 15px;
+	width: 150px;
+	height: 70px;
+	padding: 10px;
 	vertical-align: middle;
 	font-weight: bolder;
 	text-align: center;
