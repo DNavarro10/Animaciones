@@ -10,22 +10,31 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	padding: 40px 0px 0px 100px;
-	background: #599F96;
 	color: white;
 	text-shadow: 1px 1px 2px #CF5454 ;
+	background: -moz-linear-gradient(345deg, rgba(66,255,161,1) 0%, rgba(0,128,128,1) 100%); /* ff3.6+ */
+	background: -webkit-linear-gradient(345deg, rgba(66,255,161,1) 0%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
+    background: -ms-linear-gradient(345deg, rgba(66,255,161,1) 0%, rgba(0,128,128,1) 100%); /* ie10+ */
+    background: linear-gradient(105deg, rgba(66,255,161,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42FFA1', endColorstr='#008080',GradientType=1 ); /* ie6-9 */
 
+}
+header{
+	margin-bottom:28px;
+	line-height: 35px;
 }
 
 section{
 	background: #DBEDE7;
 	width: 80%;
 	margin: 20px;
-	padding: 15px;
+	padding: 15px 15px;
 	display: block;
 	box-shadow: 10px 5px 3px #60C3F6;
 }
 section div{
-	background: #44A14F;
+	position: relative;
+	background: #0F7134;
 	margin: 10px 10px;
 	width: 150px;
 	height: 70px;
@@ -35,4 +44,10 @@ section div{
 	text-align: center;
 	display: inline-block;
 	
+}
+.tres{
+	line-height: 48px;
+}
+footer{
+	margin: 10px;
 }

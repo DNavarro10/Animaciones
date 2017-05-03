@@ -5,6 +5,7 @@
 	    -ms-transform: translateX(0);
 	     -o-transform: translateX(0);
 	        transform: translateX(0);
+	        line-height: 48px;
 }.triangulo_lateral:before{
 	content: '';
 	-webkit-transition-duration: 0.3s;
@@ -12,7 +13,7 @@
 
 	border-style: solid;
 	border-width: 15px 15px 15px 0px;
-	border-color: transparent #44A14F transparent transparent   ;
+	border-color: transparent #0F7134 transparent transparent   ;
 	position: absolute;
 	left: 0;
 	top: 50%;
@@ -40,7 +41,7 @@
 
 	border-style: solid;
 	border-width: 0px 15px 15px 15px;
-	border-color: transparent transparent #44A14F transparent;
+	border-color: transparent transparent #0F7134 transparent;
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -56,6 +57,7 @@
 	    -ms-transform: translateX(0) ;
 	     -o-transform: translateX(0) ;
 	        transform: translateX(0) ;
+	        line-height: 48px;
 }
 .triangulo_inferior:before{
 	content: '';
@@ -68,7 +70,7 @@
 
 	border-style: solid;
 	border-width: 15px 15px 0px 15px;
-	border-color:  #44A14F transparent transparent transparent;
+	border-color:  #0F7134 transparent transparent transparent;
 	position: absolute;
 	bottom: 0;
 	left: 50%;
@@ -114,6 +116,7 @@ background: linear-gradient(45deg, #DBEDE7 45%, #aaa 50%, #ccc 60%, white);
 	     -o-transform: translateX(0);
 	        transform: translateX(0);
 	        transition-duration: 0.5s;
+	        line-height: 48px;
 }
 .sombra_fija:before{
 	content: '';
@@ -163,7 +166,7 @@ background: linear-gradient(45deg, #DBEDE7 45%, #aaa 50%, #ccc 60%, white);
 	    -ms-transition-duration: 0.3s;
 	     -o-transition-duration: 0.3s;
 	        transition-duration: 0.3s;
-
+		
 	box-shadow: 0px 0px 2px rgba(0, 0, 0, 1.0);
 }
 .sombra_difuminada:hover{
@@ -174,6 +177,7 @@ background: linear-gradient(45deg, #DBEDE7 45%, #aaa 50%, #ccc 60%, white);
 .sombra_radial{
 	position: relative;
 	box-shadow: 0px 0px 1px black;
+	line-height: 48px;
 }
 
 .sombra_radial:before{
@@ -263,7 +267,7 @@ background: linear-gradient(45deg, #DBEDE7 45%, #aaa 50%, #ccc 60%, white);
 	content: '';
 
 	position: absolute;
-	border:  2px solid white;
+	border:  4px solid white;
 	top: 4px;
 	bottom: 4px;
 	left: 4px;
@@ -286,7 +290,7 @@ background: linear-gradient(45deg, #DBEDE7 45%, #aaa 50%, #ccc 60%, white);
 	content: '';
 
 	position: absolute;
-	border: 4px#7E1BCA solid;
+	border: 4px #39B4A4 solid;
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
