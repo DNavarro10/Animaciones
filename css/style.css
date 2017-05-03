@@ -1,0 +1,25 @@
+body{
+
+}
+
+section{
+	background: #DBEDE7;
+	width: 80%;
+	margin: 10px;
+	padding: 15px;
+	display: inline-block;
+	box-shadow: 10px 5px 3px #60C3F6;
+}
+section div{
+	background: #44A14F;
+	margin: 10px 10px;
+	font-family: "arial";
+	width: 120px;
+	height: 40px;
+	padding: 15px;
+	vertical-align: middle;
+	font-weight: bolder;
+	text-align: center;
+	display: inline-block;
+	
+}
