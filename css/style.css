@@ -9,11 +9,11 @@
 }
 body,html{ 
 	height:100%; 
-	
+
 }
 body{
 	font-family: 'Roboto', sans-serif;
-	padding: 40px 0px 0px 100px;
+	padding: 40px;
 	color: white;
 	text-shadow: 1px 1px 2px #CF5454 ;
 	background: -moz-linear-gradient(345deg, rgba(66,255,161,1) 0%, rgba(0,128,128,1) 100%); /* ff3.6+ */
@@ -21,37 +21,50 @@ body{
     background: -ms-linear-gradient(345deg, rgba(66,255,161,1) 0%, rgba(0,128,128,1) 100%); /* ie10+ */
     background: linear-gradient(105deg, rgba(66,255,161,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42FFA1', endColorstr='#008080',GradientType=1 ); /* ie6-9 */
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.contenedor{
+	 width: 90%;
+ 	 margin: 0 auto;
+
 }
 header{
-	margin-bottom:28px;
+	width: 100%;
+	height: auto;
+	margin-top: 15px auto;
+	margin-bottom:20px;
 	line-height: 35px;
 }
 
-section{
-	background: #DBEDE7;
-	width: 80%;
-	margin: 20px;
-	padding: 15px 15px;
-	display: block;
-	box-shadow: 10px 5px 3px #60C3F6;
-}
-section div{
+.contenedor section{
 	position: relative;
+	background: #DBEDE7;
+	width: inherit;
+	margin: 15px auto;
+	padding: 15px 15px;
+	text-align: center;
+	box-shadow: 10px 5px 3px #60C3F6;
+	-webkit-box-shadow: 10px 5px 3px #60C3F6;
+	-moz-box-shadow: 10px 5px 3px #60C3F6;
+}
+.contenedor section > div{
+	position: relative;
+	display: inline-block;
 	background: #0F7134;
-	margin: 10px 10px;
-	width: 150px;
-	height: 70px;
-	padding: 10px;
+	margin: 25px 15px;
+	width: 180px;
+	height: 90px;
+	line-height: 70px;
+	padding: 10px 10px;
 	vertical-align: middle;
 	font-weight: bolder;
 	text-align: center;
-	display: inline-block;
 	
 }
-.tres{
-	line-height: 48px;
-}
+
 footer{
 	margin: 10px;
+	padding: 20px 20px;
 }
+

@@ -5,7 +5,7 @@
 	    -ms-transform: translateX(0);
 	     -o-transform: translateX(0);
 	        transform: translateX(0);
-	        line-height: 48px;
+	       
 }.triangulo_lateral:before{
 	content: '';
 	-webkit-transition-duration: 0.3s;
